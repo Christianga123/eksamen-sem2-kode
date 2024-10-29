@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kapitel 6 Nyttig info</title>
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Powerup</h1></a>
+        <div class="menu-icon"></div>
+        <ul class="menu">
+            <li class="menu-item"><a href="kapitel-6-NI.html">Nyttig information</a></li>
+            <li class="menu-item">Dark mode</li>
+            <li class="menu-item">Statistik</li>
+            <li class="menu-item">Log ud</li>
+        </ul>
+      </header>
+    <h2>Kapitel 6 - Strømforsyning</h2>
+    <div class="knap">
+    <div class="dropdown">
+        <div class="select" onclick="toggleDropdown()">
+            <span class="selected"> Er det vigtigt, hvor mange watt strømforsyningen har?</span>
+            <div class="caret"></div>
+        </div>
+        <ul class="menu1">
+            <p class="active">Det er meget vigtigt, at du har en strømforsyning med et tilstrækkeligt watt output. PC’ens komponenter kræver et konstant flow af strøm, og det er derfor vigtigt, at du ikke har en strømforsyning med for lavt watt output.</p>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <div class="select" onclick="toggleDropdown()">
+            <span class="selected"> Hvordan finder jeg ud af strømforbruget for komponenterne? </span>
+            <div class="caret"></div>
+        </div>
+        <ul class="menu1">
+            <p class="active">I mange tilfælde er det ligetil at finde ud af hvor meget en strømforsynings output er, og her bliver du nødt til at regne med alle komponenternes strømforbrug, og sørge for at der helst er en god margen at arbejde med. Her er det en rigtig god ide at være på den sikre side her.</p>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <div class="select" onclick="toggleDropdown()">
+            <span class="selected"> Er det svært at installere? </span>
+            <div class="caret"></div>
+        </div>
+        <ul class="menu1">
+            <p class="active">Det er ikke svært, men mere omstændigt, og som altid især hvis du ikke har prøvet at bygge en computer før. Du skal være opmærksom på, at du følger videoguiden nøje.
+            </p>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <div class="select" onclick="toggleDropdown()">
+            <span class="selected"> Behøver jeg en strømforsyning?</span>
+            <div class="caret"></div>
+        </div>
+        <ul class="menu1">
+            <p class="active">Ja, det gør du, medmindre du heller ikke har en skærm.</p>
+        </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
